@@ -1,0 +1,11 @@
+name: ${project.name}
+description: ${project.description}
+author: Jasonkaranik
+version: ${project.version}
+website: ${project.url}
+api-version: 1.18
+main: com.jasonkaranik.backpacksplus.BackpacksPlus
+load: STARTUP
+commands:
+  backpackconfig:
+    description: Opens the backpack config gui
